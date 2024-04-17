@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C0E937A2BC9800400CC0BC5 /* HealthKitManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E93792BC9800400CC0BC5 /* HealthKitManagerProtocol.swift */; };
+		9C0E937C2BC9823A00CC0BC5 /* LoggingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C0E937B2BC9823A00CC0BC5 /* LoggingView.swift */; };
+		9C819BB12BC6E92C00838352 /* BloodPressure Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9C819BB02BC6E92C00838352 /* BloodPressure Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C819BB62BC6E92C00838352 /* BloodPressureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C819BB52BC6E92C00838352 /* BloodPressureApp.swift */; };
+		9C819BB82BC6E92C00838352 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C819BB72BC6E92C00838352 /* ContentView.swift */; };
+		9C819BBA2BC6E92D00838352 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C819BB92BC6E92D00838352 /* Assets.xcassets */; };
+		9C819BBD2BC6E92D00838352 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C819BBC2BC6E92D00838352 /* Preview Assets.xcassets */; };
+		9C819BC72BC6E92D00838352 /* BloodPressure_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C819BC62BC6E92D00838352 /* BloodPressure_Watch_AppTests.swift */; };
+		9C819BD12BC6E92D00838352 /* BloodPressure_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C819BD02BC6E92D00838352 /* BloodPressure_Watch_AppUITests.swift */; };
+		9C819BD32BC6E92D00838352 /* BloodPressure_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C819BD22BC6E92D00838352 /* BloodPressure_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C819BB22BC6E92C00838352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C819BA42BC6E92C00838352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C819BAF2BC6E92C00838352;
+			remoteInfo = "BloodPressure Watch App";
+		};
+		9C819BC32BC6E92D00838352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C819BA42BC6E92C00838352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C819BAF2BC6E92C00838352;
+			remoteInfo = "BloodPressure Watch App";
+		};
+		9C819BCD2BC6E92D00838352 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C819BA42BC6E92C00838352 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C819BAF2BC6E92C00838352;
+			remoteInfo = "BloodPressure Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9C819BD92BC6E92D00838352 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9C819BB12BC6E92C00838352 /* BloodPressure Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9C0E93782BC97F6B00CC0BC5 /* BloodPressure-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BloodPressure-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9C0E93792BC9800400CC0BC5 /* HealthKitManagerProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthKitManagerProtocol.swift; sourceTree = "<group>"; };
+		9C0E937B2BC9823A00CC0BC5 /* LoggingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingView.swift; sourceTree = "<group>"; };
+		9C819BAA2BC6E92C00838352 /* BloodPressure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodPressure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C819BB02BC6E92C00838352 /* BloodPressure Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BloodPressure Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C819BB52BC6E92C00838352 /* BloodPressureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressureApp.swift; sourceTree = "<group>"; };
+		9C819BB72BC6E92C00838352 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9C819BB92BC6E92D00838352 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C819BBC2BC6E92D00838352 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C819BC22BC6E92D00838352 /* BloodPressure Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BloodPressure Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C819BC62BC6E92D00838352 /* BloodPressure_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressure_Watch_AppTests.swift; sourceTree = "<group>"; };
+		9C819BCC2BC6E92D00838352 /* BloodPressure Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BloodPressure Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C819BD02BC6E92D00838352 /* BloodPressure_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressure_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		9C819BD22BC6E92D00838352 /* BloodPressure_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodPressure_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9CD229952BCA5C360051B3DB /* BloodPressure Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BloodPressure Watch App.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C819BAD2BC6E92C00838352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C819BBF2BC6E92D00838352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C819BC92BC6E92D00838352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C819BA32BC6E92C00838352 = {
+			isa = PBXGroup;
+			children = (
+				9C819BB42BC6E92C00838352 /* BloodPressure Watch App */,
+				9C819BC52BC6E92D00838352 /* BloodPressure Watch AppTests */,
+				9C819BCF2BC6E92D00838352 /* BloodPressure Watch AppUITests */,
+				9C819BAB2BC6E92C00838352 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C819BAB2BC6E92C00838352 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C819BAA2BC6E92C00838352 /* BloodPressure.app */,
+				9C819BB02BC6E92C00838352 /* BloodPressure Watch App.app */,
+				9C819BC22BC6E92D00838352 /* BloodPressure Watch AppTests.xctest */,
+				9C819BCC2BC6E92D00838352 /* BloodPressure Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C819BB42BC6E92C00838352 /* BloodPressure Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9CD229952BCA5C360051B3DB /* BloodPressure Watch App.entitlements */,
+				9C0E93782BC97F6B00CC0BC5 /* BloodPressure-Watch-App-Info.plist */,
+				9C819BB52BC6E92C00838352 /* BloodPressureApp.swift */,
+				9C819BB72BC6E92C00838352 /* ContentView.swift */,
+				9C819BB92BC6E92D00838352 /* Assets.xcassets */,
+				9C819BBB2BC6E92D00838352 /* Preview Content */,
+				9C0E93792BC9800400CC0BC5 /* HealthKitManagerProtocol.swift */,
+				9C0E937B2BC9823A00CC0BC5 /* LoggingView.swift */,
+			);
+			path = "BloodPressure Watch App";
+			sourceTree = "<group>";
+		};
+		9C819BBB2BC6E92D00838352 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9C819BBC2BC6E92D00838352 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9C819BC52BC6E92D00838352 /* BloodPressure Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C819BC62BC6E92D00838352 /* BloodPressure_Watch_AppTests.swift */,
+			);
+			path = "BloodPressure Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9C819BCF2BC6E92D00838352 /* BloodPressure Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C819BD02BC6E92D00838352 /* BloodPressure_Watch_AppUITests.swift */,
+				9C819BD22BC6E92D00838352 /* BloodPressure_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "BloodPressure Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C819BA92BC6E92C00838352 /* BloodPressure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C819BDA2BC6E92D00838352 /* Build configuration list for PBXNativeTarget "BloodPressure" */;
+			buildPhases = (
+				9C819BA82BC6E92C00838352 /* Resources */,
+				9C819BD92BC6E92D00838352 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C819BB32BC6E92C00838352 /* PBXTargetDependency */,
+			);
+			name = BloodPressure;
+			productName = BloodPressure;
+			productReference = 9C819BAA2BC6E92C00838352 /* BloodPressure.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		9C819BAF2BC6E92C00838352 /* BloodPressure Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C819BD62BC6E92D00838352 /* Build configuration list for PBXNativeTarget "BloodPressure Watch App" */;
+			buildPhases = (
+				9C819BAC2BC6E92C00838352 /* Sources */,
+				9C819BAD2BC6E92C00838352 /* Frameworks */,
+				9C819BAE2BC6E92C00838352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BloodPressure Watch App";
+			productName = "BloodPressure Watch App";
+			productReference = 9C819BB02BC6E92C00838352 /* BloodPressure Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C819BC12BC6E92D00838352 /* BloodPressure Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C819BDD2BC6E92D00838352 /* Build configuration list for PBXNativeTarget "BloodPressure Watch AppTests" */;
+			buildPhases = (
+				9C819BBE2BC6E92D00838352 /* Sources */,
+				9C819BBF2BC6E92D00838352 /* Frameworks */,
+				9C819BC02BC6E92D00838352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C819BC42BC6E92D00838352 /* PBXTargetDependency */,
+			);
+			name = "BloodPressure Watch AppTests";
+			productName = "BloodPressure Watch AppTests";
+			productReference = 9C819BC22BC6E92D00838352 /* BloodPressure Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C819BCB2BC6E92D00838352 /* BloodPressure Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C819BE02BC6E92D00838352 /* Build configuration list for PBXNativeTarget "BloodPressure Watch AppUITests" */;
+			buildPhases = (
+				9C819BC82BC6E92D00838352 /* Sources */,
+				9C819BC92BC6E92D00838352 /* Frameworks */,
+				9C819BCA2BC6E92D00838352 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C819BCE2BC6E92D00838352 /* PBXTargetDependency */,
+			);
+			name = "BloodPressure Watch AppUITests";
+			productName = "BloodPressure Watch AppUITests";
+			productReference = 9C819BCC2BC6E92D00838352 /* BloodPressure Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C819BA42BC6E92C00838352 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9C819BA92BC6E92C00838352 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9C819BAF2BC6E92C00838352 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					9C819BC12BC6E92D00838352 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9C819BAF2BC6E92C00838352;
+					};
+					9C819BCB2BC6E92D00838352 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 9C819BAF2BC6E92C00838352;
+					};
+				};
+			};
+			buildConfigurationList = 9C819BA72BC6E92C00838352 /* Build configuration list for PBXProject "BloodPressure" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C819BA32BC6E92C00838352;
+			productRefGroup = 9C819BAB2BC6E92C00838352 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C819BA92BC6E92C00838352 /* BloodPressure */,
+				9C819BAF2BC6E92C00838352 /* BloodPressure Watch App */,
+				9C819BC12BC6E92D00838352 /* BloodPressure Watch AppTests */,
+				9C819BCB2BC6E92D00838352 /* BloodPressure Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C819BA82BC6E92C00838352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C819BAE2BC6E92C00838352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C819BBD2BC6E92D00838352 /* Preview Assets.xcassets in Resources */,
+				9C819BBA2BC6E92D00838352 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C819BC02BC6E92D00838352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C819BCA2BC6E92D00838352 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C819BAC2BC6E92C00838352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C819BB82BC6E92C00838352 /* ContentView.swift in Sources */,
+				9C819BB62BC6E92C00838352 /* BloodPressureApp.swift in Sources */,
+				9C0E937C2BC9823A00CC0BC5 /* LoggingView.swift in Sources */,
+				9C0E937A2BC9800400CC0BC5 /* HealthKitManagerProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C819BBE2BC6E92D00838352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C819BC72BC6E92D00838352 /* BloodPressure_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C819BC82BC6E92D00838352 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C819BD32BC6E92D00838352 /* BloodPressure_Watch_AppUITestsLaunchTests.swift in Sources */,
+				9C819BD12BC6E92D00838352 /* BloodPressure_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C819BB32BC6E92C00838352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C819BAF2BC6E92C00838352 /* BloodPressure Watch App */;
+			targetProxy = 9C819BB22BC6E92C00838352 /* PBXContainerItemProxy */;
+		};
+		9C819BC42BC6E92D00838352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C819BAF2BC6E92C00838352 /* BloodPressure Watch App */;
+			targetProxy = 9C819BC32BC6E92D00838352 /* PBXContainerItemProxy */;
+		};
+		9C819BCE2BC6E92D00838352 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C819BAF2BC6E92C00838352 /* BloodPressure Watch App */;
+			targetProxy = 9C819BCD2BC6E92D00838352 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9C819BD42BC6E92D00838352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C819BD52BC6E92D00838352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9C819BD72BC6E92D00838352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "BloodPressure Watch App/BloodPressure Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BloodPressure Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VG9KZ2WUH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BloodPressure-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BloodPressure;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Read new records of blood pressure";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Read and write records of blood pressure";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Write new records of blood pressure";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asnelzin.BloodPressure.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		9C819BD82BC6E92D00838352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_ENTITLEMENTS = "BloodPressure Watch App/BloodPressure Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BloodPressure Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5VG9KZ2WUH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BloodPressure-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = BloodPressure;
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Read new records of blood pressure";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Read and write records of blood pressure";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Write new records of blood pressure";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asnelzin.BloodPressure.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		9C819BDB2BC6E92D00838352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VG9KZ2WUH;
+				INFOPLIST_KEY_CFBundleDisplayName = BloodPressure;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asnelzin.BloodPressure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9C819BDC2BC6E92D00838352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5VG9KZ2WUH;
+				INFOPLIST_KEY_CFBundleDisplayName = BloodPressure;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.asnelzin.BloodPressure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C819BDE2BC6E92D00838352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asnelzin.BloodPressure-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodPressure Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloodPressure Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		9C819BDF2BC6E92D00838352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asnelzin.BloodPressure-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BloodPressure Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BloodPressure Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		9C819BE12BC6E92D00838352 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asnelzin.BloodPressure-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BloodPressure Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		9C819BE22BC6E92D00838352 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.asnelzin.BloodPressure-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "BloodPressure Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C819BA72BC6E92C00838352 /* Build configuration list for PBXProject "BloodPressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C819BD42BC6E92D00838352 /* Debug */,
+				9C819BD52BC6E92D00838352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C819BD62BC6E92D00838352 /* Build configuration list for PBXNativeTarget "BloodPressure Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C819BD72BC6E92D00838352 /* Debug */,
+				9C819BD82BC6E92D00838352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C819BDA2BC6E92D00838352 /* Build configuration list for PBXNativeTarget "BloodPressure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C819BDB2BC6E92D00838352 /* Debug */,
+				9C819BDC2BC6E92D00838352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C819BDD2BC6E92D00838352 /* Build configuration list for PBXNativeTarget "BloodPressure Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C819BDE2BC6E92D00838352 /* Debug */,
+				9C819BDF2BC6E92D00838352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C819BE02BC6E92D00838352 /* Build configuration list for PBXNativeTarget "BloodPressure Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C819BE12BC6E92D00838352 /* Debug */,
+				9C819BE22BC6E92D00838352 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C819BA42BC6E92C00838352 /* Project object */;
+}
